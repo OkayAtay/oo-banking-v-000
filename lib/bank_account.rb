@@ -22,6 +22,6 @@ attr_reader :name
     end
   end
 
-  def
+  def close_account
   end
 end
