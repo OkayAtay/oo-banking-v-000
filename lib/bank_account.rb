@@ -19,8 +19,8 @@ attr_reader :name
 
   def valid
     if self.balance == 0
-      self.status = open
-      
+      self.status = "closed"
+
     end
   end
 end
