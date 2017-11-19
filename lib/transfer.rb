@@ -33,7 +33,10 @@ attr_accessor :sender, :receiver, :status, :amount, :counter
   end
 
   def reverse_transfer
-    
+    if condition
+      
+    end
+
   end
 
 end
