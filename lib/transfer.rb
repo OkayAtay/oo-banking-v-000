@@ -1,7 +1,7 @@
 require 'pry'
 class Transfer
 
-attr_accessor :sender, :receiver, :status, :amount, :counter
+attr_accessor :sender, :receiver, :status, :amount, #:counter
 
 
   def initialize(sender, receiver, amount)
@@ -9,7 +9,7 @@ attr_accessor :sender, :receiver, :status, :amount, :counter
     @sender=sender
     @receiver=receiver
     @amount=amount
-    @counter = 0
+    #@counter = 0
   end
 
   def valid?
@@ -21,10 +21,10 @@ attr_accessor :sender, :receiver, :status, :amount, :counter
   end
 
   def execute_transaction
-    if self.valid? && @counter == 0
+    if self.valid? #&& @counter == 0
       @receiver.balance += @amount
       @sender.balance -= @amount
-      @counter += 1;
+      #@counter += 1;
       @status = "complete"
     else
       @status = "rejected"
