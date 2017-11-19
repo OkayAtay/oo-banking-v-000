@@ -30,7 +30,6 @@ attr_accessor :sender, :receiver, :status, :amount, :counter
       @status = "rejected"
       "Transaction rejected. Please check your account balance."
     end
-    binding.pry
   end
 
 end
