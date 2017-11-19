@@ -12,4 +12,6 @@ attr_reader :name
   def deposit(num)
     @balance += num
   end
+
+  def
 end
