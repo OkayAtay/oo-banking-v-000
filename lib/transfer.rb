@@ -20,6 +20,7 @@ attr_accessor :sender, :receiver, :status, :amount
 
   def execute_transaction
     @sender -= @amount
+    @receiver += @amount
   end
 
 end
