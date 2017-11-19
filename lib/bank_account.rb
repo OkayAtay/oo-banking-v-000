@@ -20,8 +20,7 @@ attr_reader :name
   end
 
   def valid?
-    binding.pry
-    if self.balance > 0 && self.status = "open"
+    if self.balance > 0 && self.status == "open"
       true
     end
   end
