@@ -25,7 +25,7 @@ attr_accessor :sender, :receiver, :status, :amount, :counter
     if self.valid? == true && @counter == 0
       @receiver.balance += @amount
       @sender.balance -= @amount
-      @counter += 1
+      @counter += 1;
       @status = "complete"
     else
       @status = "rejected"
