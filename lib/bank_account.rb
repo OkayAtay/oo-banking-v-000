@@ -21,4 +21,6 @@ attr_reader :name
     if self.balance > 0 && self.status = "true"
     end
   end
+
+  def
 end
