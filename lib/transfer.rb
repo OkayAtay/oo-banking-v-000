@@ -13,6 +13,7 @@ attr_accessor :sender, :receiver, :status, :amount, :counter
   end
 
   def valid?
+    binding.pry
     if   @sender.valid? && @receiver.valid? && self.status == "pending"
       true
     else
