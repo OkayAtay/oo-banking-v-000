@@ -2,13 +2,14 @@ require 'pry'
 class Transfer
 
 attr_accessor :sender, :receiver, :status, :amount, :counter
-@counter = 0
+
 
   def initialize(sender, receiver, amount)
     @status="pending"
     @sender=sender
     @receiver=receiver
     @amount=amount
+    @counter = 0
   end
 
   def valid?
