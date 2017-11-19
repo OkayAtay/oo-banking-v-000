@@ -23,4 +23,5 @@ attr_reader :name
   end
 
   def
+  end
 end
