@@ -15,6 +15,5 @@ attr_accessor :sender, :receiver, :status, :amount
     else
       false
     end
-
   end
 end
