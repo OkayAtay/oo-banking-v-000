@@ -19,7 +19,6 @@ attr_reader :name
 
   def valid
     if self.balance > 0 && self.status = "true"
-
     end
   end
 end
