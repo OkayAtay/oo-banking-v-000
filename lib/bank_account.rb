@@ -17,7 +17,7 @@ attr_reader :name
     "Your balance is $#{self.balance}."
   end
 
-  def valid
+  def valid?
     if self.balance > 0 && self.status = "true"
     end
   end
