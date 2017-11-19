@@ -9,7 +9,7 @@ attr_reader :name
     @status=open
   end
 
-  def deposit
-    
+  def deposit(num)
+
   end
 end
