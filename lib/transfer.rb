@@ -2,7 +2,7 @@ require 'pry'
 class Transfer
 
 attr_accessor :sender, :receiver, :status, :amount
-
+@counter = 0
 
   def initialize(sender, receiver, amount)
     @status="pending"
