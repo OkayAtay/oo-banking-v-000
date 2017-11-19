@@ -12,6 +12,8 @@ attr_accessor :sender, :receiver, :status, :amount
   def valid?
     if   @sender.valid? == true && @receiver.valid? == true && self.valid? == true
       true
+    else
+      false
     end
 
   end
