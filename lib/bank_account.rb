@@ -13,6 +13,6 @@ attr_reader :name
     @balance += num
   end
 
-  def
+  def display_balance
   end
 end
